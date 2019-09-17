@@ -1,0 +1,62 @@
+{
+  "name": "EMOAPP",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "test": "jest",
+    "lint": "eslint \"./src/**/*.{ts,tsx}\"",
+    "lint-fix": "eslint --fix \"./src/**/*.{ts,tsx}\"",
+    "prettier": "prettier --write \"./src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@eva-design/eva": "^1.0.1",
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-native-firebase/app": "^0.3.0",
+    "@react-native-firebase/auth": "^0.3.0",
+    "@react-native-firebase/firestore": "^0.3.0",
+    "@react-native-firebase/storage": "^0.3.0",
+    "firebase": "^6.6.0",
+    "lodash": "^4.17.15",
+    "react": "16.8.6",
+    "react-firebase-hooks": "^2.1.0",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-google-signin": "^2.0.0",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-screens": "^2.0.0-alpha.1",
+    "react-native-svg": "^9.9.3",
+    "react-native-ui-kitten": "^4.1.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.0",
+    "react-navigation-stack": "^1.5.3",
+    "react-use": "^12.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.138",
+    "@types/react": "^16.9.2",
+    "@types/react-native": "^0.60.11",
+    "@types/react-test-renderer": "^16.9.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "eslint-plugin-react-native": "^3.7.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "prettier": "^1.18.2",
+    "react-devtools": "^3.6.3",
+    "react-test-renderer": "16.8.6",
+    "typescript": "^3.6.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

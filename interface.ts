@@ -33,5 +33,5 @@ export interface exc {
 question: string
   answer: string
     }
-\
+
 
